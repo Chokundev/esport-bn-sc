@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPDPE6KKSH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DPDPE6KKSH');
+    </script>
+
+    <?!= HtmlService.createHtmlOutputFromFile('css').getContent() ?>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="title">
+            ระบบลงทะเบียน BN-ESPORT
+        </div>
+        <form id="myForm">
+            <div class="form">
+                <label>• ข้อมูลผู้สมัคร คนที่ 1</label>
+                <br>
+                <br>
+
+                <form class="form" id="myForm" onsubmit="submitForm()">
+                    <div class="inputfield">
+                        <label>ชื่อ-สกุล :</label>
+                        <input type="text" class="input" id="input1">
+                    </div>
+                    <div class="inputfield">
+                        <label>เลขประจำตัวนักเรียน :</label>
+                        <input type="text" class="input" id="input2">
+                    </div>
+                    <div class="inputfield">
+                        <label>ชื่อตัวละครในเกม :</label>
+                        <input type="text" class="input" id="input3">
+                    </div>
+                    <div class="inputfield">
+                        <label>ระดับชั้น/ห้อง :</label>
+                        <input type="text" class="input" id="input4">
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+
+                    <label>• ข้อมูลผู้สมัคร คนที่ 2</label>
+                    <br>
+                    <br>
+
+                    <div class="inputfield">
+                        <label>ชื่อ-สกุล :</label>
+                        <input type="text" class="input" id="input5">
+                    </div>
+                    <div class="inputfield">
+                        <label>เลขประจำตัวนักเรียน :</label>
+                        <input type="text" class="input" id="input6">
+                    </div>
+                    <div class="inputfield">
+                        <label>ชื่อตัวละครในเกม :</label>
+                        <input type="text" class="input" id="input7">
+                    </div>
+                    <div class="inputfield">
+                        <label>ระดับชั้น/ห้อง :</label>
+                        <input type="text" class="input" id="input8">
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <label>• ข้อมูลผู้สมัคร คนที่ 3</label>
+                    <br>
+                    <br>
+
+                    <div class="inputfield">
+                        <label>ชื่อ-สกุล :</label>
+                        <input type="text" class="input" id="input9">
+                    </div>
+                    <div class="inputfield">
+                        <label>เลขประจำตัวนักเรียน :</label>
+                        <input type="text" class="input" id="input10">
+                    </div>
+                    <div class="inputfield">
+                        <label>ชื่อตัวละครในเกม :</label>
+                        <input type="text" class="input" id="input11">
+                    </div>
+                    <div class="inputfield">
+                        <label>ระดับชั้น/ห้อง :</label>
+                        <input type="text" class="input" id="input12">
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <label>• ข้อมูลผู้สมัคร คนที่ 4</label>
+                    <br>
+                    <br>
+
+                    <div class="inputfield">
+                        <label>ชื่อ-สกุล :</label>
+                        <input type="text" class="input" id="input13">
+                    </div>
+                    <div class="inputfield">
+                        <label>เลขประจำตัวนักเรียน :</label>
+                        <input type="text" class="input" id="input14">
+                    </div>
+                    <div class="inputfield">
+                        <label>ชื่อตัวละครในเกม :</label>
+                        <input type="text" class="input" id="input15">
+                    </div>
+                    <div class="inputfield">
+                        <label>ระดับชั้น/ห้อง :</label>
+                        <input type="text" class="input" id="input16">
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <label>• ข้อมูลผู้สมัคร คนที่ 5</label>
+                    <br>
+                    <br>
+
+                    <div class="inputfield">
+                        <label>ชื่อ-สกุล :</label>
+                        <input type="text" class="input" id="input17">
+                    </div>
+                    <div class="inputfield">
+                        <label>เลขประจำตัวนักเรียน :</label>
+                        <input type="text" class="input" id="input18">
+                    </div>
+                    <div class="inputfield">
+                        <label>ชื่อตัวละครในเกม :</label>
+                        <input type="text" class="input" id="input19">
+                    </div>
+                    <div class="inputfield">
+                        <label>ระดับชั้น/ห้อง :</label>
+                        <input type="text" class="input" id="input20">
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <label>• ข้อมูลผู้สมัคร คนที่ 6 (สำรอง)</label>
+                    <br>
+                    <br>
+
+                    <div class="inputfield">
+                        <label>ชื่อ-สกุล :</label>
+                        <input type="text" class="input" id="input21">
+                    </div>
+                    <div class="inputfield">
+                        <label>เลขประจำตัวนักเรียน :</label>
+                        <input type="text" class="input" id="input22">
+                    </div>
+                    <div class="inputfield">
+                        <label>ชื่อตัวละครในเกม :</label>
+                        <input type="text" class="input" id="input23">
+                    </div>
+                    <div class="inputfield">
+                        <label>ระดับชั้น/ห้อง :</label>
+                        <input type="text" class="input" id="input24">
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <label>• ข้อมูลผู้สมัคร คนที่ 7 (สำรอง)</label>
+                    <br>
+                    <br>
+
+                    <div class="inputfield">
+                        <label>ชื่อ-สกุล :</label>
+                        <input type="text" class="input" id="input25">
+                    </div>
+                    <div class="inputfield">
+                        <label>เลขประจำตัวนักเรียน :</label>
+                        <input type="text" class="input" id="input26">
+                    </div>
+                    <div class="inputfield">
+                        <label>ชื่อตัวละครในเกม :</label>
+                        <input type="text" class="input" id="input27">
+                    </div>
+                    <div class="inputfield">
+                        <label>ระดับชั้น/ห้อง :</label>
+                        <input type="text" class="input" id="input28">
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+
+                    <label>• ข้อมูลทีม </label>
+                    <br>
+                    <br>
+
+                    <div class="inputfield">
+                        <label>ชื่อทีม :</label>
+                        <input type="text" class="input" id="input29">
+                    </div>
+
+
+                    <div class="inputfield">
+                        <label>คณะ : </label>
+                        <div class="custom_select">
+                            <select id="input30">
+                                <option value="">เลือกคณะ</option>
+                                <option value="วชิรญาณวงศ์">วชิรญาณวงศ์</option>
+                                <option value="ดำรงธรรมี">ดำรงธรรมี</option>
+                                <option value="รังษีสังวร">รังษีสังวร</option>
+                                <option value="บวรนาคินทร์">บวรนาคินทร์</option>
+                                <option value="อรพินท์พิสุทธิ์">อรพินท์พิสุทธิ์</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="input31" />
+                        <label class="form-check-label text-secondary" for="input31">
+                            ยอมรับเงื่อนไข
+                        </label>
+                        <button type="button" class="badge rounded-pill bg-danger border-danger" id="btncondition"
+                            data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                            เงื่อนไขในการลงทะเบียน
+                        </button>
+                    </div>
+
+                    <div id="output" class="mt-2"></div>
+
+                    <div class="inputfield">
+                        <button type="submit" class="btn" id="add"><i class="fas fa-user-cog"></i> ลงทะเบียน</button>
+                        <button class="btn" type="submit" id="add2" disabled style="display:none">
+                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            กำลังบันทึก...
+                        </button>
+                    </div>
+                </form>
+                <h6 style="text-align:center; font-size:12px;">**กรุณากรอกข้อมูลให้ครบถ้วน เพื่อรักษาสิทธิของตัวเอง**
+                </h6>
+                <h6 style="text-align:center; font-size:12px;">**กรณีในทีมมาจากคนละห้อง ให้เลือกระดับชั้นด้วย**</h6>
+                <h6 style="text-align:center; font-size:12px;">**หากไม่ได้มาจากคนละห้อง ให้เลือก - **</h6>
+
+                <center>
+                    <br />
+                    <button type="button" class="btn btn-danger" disabled>จะปิดระบบในวันที่ : 23/12/66</button>
+                    <br>
+                    <br>
+
+                    <h6 style="font-size:14px;">© 2022 ธีรชานนท์ พวงเงิน</h6>
+                </center>
+            </div>
+    </div>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" id="modal" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+        style="display:none">
+        buttonmodal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="staticBackdropLabel">รายละเอียดการลงทะเบียน</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table id="tb" class="table table-bordered table-responsive nowrap" style="width:100%"></table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Modal เงื่อนไขการสมัคร-->
+        <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-warning">
+                        <h5 class="modal-title" id="staticBackdropLabel">เงื่อนไขในการลงทะเบียน</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+
+                        <p>1. ผู้สมัคร จะต้องกรอกข้อมูลรายละเอียดต่างๆ ตามจริงให้ครบถ้วน</p>
+                        <p>2. หากตรวจพบว่าข้อมูลของผู้สมัครไม่เป็นความจริง จะไม่อนุมัติการลงทะเบียน </p>
+                        <p>3. เมื่อลงทะเบียนสำเร็จแล้ว โปรดติดตามการประกาศผลในหน้า<a href="#">เว็บคณะกรรมการนักเรียน</a>
+                        </p>
+                        <p>4. โปรดจำรหัสผ่านที่ระบบให้กรอก เพื่อใช้ในการเข้าระบบอีกครั้งหลังประกาศผล </p>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <?!= HtmlService.createHtmlOutputFromFile('js').getContent() ?>
+</body>
+
+</html>
